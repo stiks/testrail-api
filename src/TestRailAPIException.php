@@ -1,4 +1,5 @@
 <?php
+namespace stiks\testrail;
 
 /**
  * TestRail API binding for PHP (API v2, available since TestRail 3.0)
