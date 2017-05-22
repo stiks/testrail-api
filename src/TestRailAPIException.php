@@ -12,6 +12,6 @@ namespace stiks\testrail;
  * Copyright Gurock Software GmbH. See license.md for details.
  */
 
-class TestRailAPIException extends Exception
+class TestRailAPIException extends \Exception
 {
 }
