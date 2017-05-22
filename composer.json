@@ -1,5 +1,5 @@
 {
-  "name": "creativestyle/testrail-api",
+  "name": "stiks/testrail",
   "description": "Package to deliver TestRail API from gurock/testrail-api",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -7,6 +7,13 @@
     {
       "name": "Krzysztof Daniel",
       "email": "krzysztof.daniel@creativestyle.pl"
+    },
+    {
+      "name": "Kirill Garbar",
+      "email": "kirill@yn.ee"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": { "Stiks\\TestRail\\": "src/" }
+  }
 }
